@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Мой крутой сайт</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: rgba(0,0,0,0.3);
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+    p.subtitle { font-size: 1.3rem; opacity: 0.9; }
+    
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 3rem;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+    .card h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .card p { font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem; opacity: 0.9; }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #764ba2;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    .btn:hover { transform: scale(1.1); background: #f0f0f0; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.3);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Добро пожаловать!</h1>
+    <p class="subtitle">Твой новый крутой сайт уже готов</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Привет, мир! 👋</h2>
+      <p>Это полностью рабочий современный сайт, который ты получил за 10 секунд. 
+         Меняй текст, цвета и добавляй свои идеи — всё в твоих руках!</p>
+      <a href="#" class="btn">Начать прямо сейчас</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Твой сайт. Сделано с любовью ❤️
+  </footer>
+
+</body>
+</html>
